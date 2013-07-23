@@ -11,35 +11,33 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
-
 <body>
+
 <div class="container-fluid">
-	<header class="row-fluid">
+	<header class="row-fluid" style="background-color:yellow">
     	<h1 class="span12">This is my first Bootstrap page.</h1>
     </header>
-
-	<section class="row-fluid">
-    	<aside class="span3">
-        	<p>Here is a left column on this web page.</p>
-        </aside>
-        <article class="span9">
-        	<p>Here is the main content area of this web page.</p>
-        </article>
-    </section>
     
     <section class="row-fluid">
-    	<article class="span9">
-        	Here is another article.
-        </article>
-        <aside class="span3">
-        	Here is more information about that article.
+    	<aside class="span3" style="background-color:orange">
+        	<p>Here is a left column on this web page.</p>
         </aside>
+        <article class="span9" style="background-color:brown">
+        	<h2>Article title</h2>
+            <p>Here is the main content area of this web page.</p>
+        </article>
     </section>
     
-    <footer class="span12">
-    	Copyright and some bottom navigation go here
+	<section class="row-fluid">
+    	<article class="span9 offset3" style="background-color:yellow">
+        	<h2>Another Article</h2>
+            <p>Here is another article.</p>
+        </article>
+    </section>
+    
+    <footer class="span2 offset10" style="background-color:orange">
+    	&copy; 2012 somehow.com
     </footer>
-
 </div>
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>

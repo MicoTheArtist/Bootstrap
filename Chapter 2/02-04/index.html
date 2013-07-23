@@ -11,34 +11,45 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
-
 <body>
 <div class="container-fluid">
 	<header class="row-fluid">
     	<h1 class="span12">This is my first Bootstrap page.</h1>
     </header>
-
-	<section class="row-fluid">
-    	<aside class="span3">
+    
+    <section class="row-fluid">
+    	<aside class="span3" style="background-color:yellow">
         	<p>Here is a left column on this web page.</p>
         </aside>
-        <article class="span9">
+        <aside class="span9" style="background-color:green">
         	<h2>Article title</h2>
         	<p>Here is the main content area of this web page.</p>
-        </article>
+        </aside>
     </section>
     
     <section class="row-fluid">
-    	<article class="span9 offset3">
-        	<h2>Another Article</h2>
-        	<p>Here is another article.</p>
+    	<article class="span9 offset3" style="background-color:orange">
+        	<h2>Another article</h2>
+            <p>Here is another article.</p>
         </article>
     </section>
     
-    <footer class="span2 offset10">
-    	&copy; 2012 lynda.com
-    </footer>
-
+    <section class="row-fluid" style="background-color:yellow">
+    	<div class="span9 offset3" style="background-color:orange;">
+        	<div class="row-fluid" style="background-color:brown">
+            	<div class="span6" style="background-color:green">
+                	<h3>INfo Box1</h3>
+                    <img src="img/art1.jpg">
+                    <p>Here is some text about the picture</p>
+                </div>
+                <div class="span6" style="background-color:lightBlue">
+                	<h3>Info Box 2</h3>
+                    <img src="img/art2.jpg">
+                    <p>Here is some text about the picture</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
